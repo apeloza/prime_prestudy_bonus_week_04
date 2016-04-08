@@ -8,4 +8,10 @@ function timesTwo(num){
 	return num*2;
 }
 
-console.log("4 modulo 3 times 2 plus 2 = " + plusTwo(timesTwo(moduloThree(4))));
+function splinter (num1, num2){
+	var z = num1*num2
+	var sArray = [num1, num2, z];
+	return sArray;
+}
+
+console.log(splinter(1,2));
